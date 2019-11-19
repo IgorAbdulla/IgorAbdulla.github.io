@@ -4016,6 +4016,9 @@ a:focus, a:hover {
 .owl-carousel button.active {
     background-color: #fff!important;
 }
+.owl-carousel .owl-item img{
+  width: auto;
+}
 .about-title, .map-title, .pacages-title, .support-title {
     position: relative;
     margin: 140px auto 170px auto;
