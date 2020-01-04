@@ -535,7 +535,7 @@ img {
 }
 
 .header__banner {
-  background-image: url("../img/back.png");
+  background-image: url("../img/Back.png");
   background-position: center -9px;
   z-index: 999;
   height: 226px;
