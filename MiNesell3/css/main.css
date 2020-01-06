@@ -231,6 +231,8 @@ img {
 }
 
 .header-top__right {
+  position: relative;
+  z-index: 99;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
