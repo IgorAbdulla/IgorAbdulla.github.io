@@ -473,6 +473,8 @@ img {
   border: 4px solid #1C2023;
   margin: 10px 0;
   position: relative;
+  width: 100px;
+  height: 100px;
 }
 
 .contender__circle {
