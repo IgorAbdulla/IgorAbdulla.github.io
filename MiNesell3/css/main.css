@@ -221,6 +221,9 @@ img {
   display: block;
   padding: 27.5px 23px;
 }
+.header {
+  overflow: hidden;
+}
 
 .second-menubar__right, .header-top__right {
   float: right;
