@@ -1586,7 +1586,7 @@ input[type=range]::-moz-range-thumb {
 
 @media only screen and (max-width: 1010px) {
   .popular-filter, .area-filter, .search-filter {
-    margin-left: 0px;
+    margin-left: 18px;
   }
 }
 
@@ -1625,6 +1625,9 @@ input[type=range]::-moz-range-thumb {
   .header-live {
     display: none;
   }
+  .popular-filter, .area-filter, .search-filter, .price-filter{
+		margin-left: 0;
+	}
 }
 
 @media only screen and (max-width: 456px) {
