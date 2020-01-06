@@ -86,7 +86,7 @@ img {
   left: 12%;
   right: 0;
   height: 384px;
-  width: 1064px;
+  width: 100%;
   opacity: .3;
   background-image: url("../img/Effect.svg");
   background-repeat: no-repeat;
