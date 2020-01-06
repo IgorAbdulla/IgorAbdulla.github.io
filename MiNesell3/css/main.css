@@ -76,7 +76,7 @@ img {
   right: 32%;
   height: 188px;
   width: 643px;
-  background-image: url("../img/header_light.svg");
+/*   background-image: url("../img/header_light.svg"); */
   background-repeat: no-repeat;
 }
 
@@ -89,7 +89,7 @@ img {
   height: 384px;
   width: 100%;
   opacity: .3;
-  background-image: url("../img/Effect.svg");
+/*   background-image: url("../img/Effect.svg"); */
   background-repeat: no-repeat;
 }
 
