@@ -1638,6 +1638,9 @@ input[type=range]::-moz-range-thumb {
   .popular-filter, .area-filter, .search-filter, .price-filter{
 		margin-left: 0;
 	}
+	.custom-select select, .search-form select{
+	width: 100%;
+	}
 }
 
 @media only screen and (max-width: 456px) {
