@@ -84,12 +84,11 @@ img {
   content: "";
   position: absolute;
   top: -220px;
-  left: 330px;
-  right: 0;
   height: 384px;
   width: 100%;
   opacity: .3;
   background-image: url("../img/Effect.svg");
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
