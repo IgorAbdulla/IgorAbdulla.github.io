@@ -84,7 +84,7 @@ img {
   content: "";
   position: absolute;
   top: -220px;
-  left: 12%;
+  left: 0;
   right: 0;
   height: 384px;
   width: 100%;
