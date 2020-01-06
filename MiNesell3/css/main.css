@@ -847,6 +847,9 @@ select option:hover {
 }
 
 .more-inf {
+  min-width: 204px;
+  min-height: 81px;
+  padding: 25px 0;
   position: relative;
   z-index: 99;
   font-size: 14px;
