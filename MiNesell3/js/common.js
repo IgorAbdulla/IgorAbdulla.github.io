@@ -12,9 +12,9 @@ $(".main-navbar a").click(function(){
   }
 });
 
-if ($(window).width() < 790) {
+
 	$('.device-width-center').addClass('col-center');
-}
+
 
 var owl = $('.owl-carousel');
 owl.owlCarousel({
