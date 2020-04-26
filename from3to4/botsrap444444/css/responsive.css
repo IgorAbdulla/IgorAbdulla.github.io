@@ -318,16 +318,25 @@ ul.social_icons li{
   .post_reply_comments {
     padding-left: 20px;
   }
-.portfolio-item {
-  width: 100%;
-}
+  .portfolio-item {
+    width: 100%;
+  }
 
 }
 @media (max-width: 767.98px) {
-.navbar-expand-md>.container, .navbar-expand-md>.container-fluid {
-     padding-right: .5rem; 
-     padding-left: .5rem; 
+  .navbar-expand-md>.container, .navbar-expand-md>.container-fluid {
+   padding-right: .5rem; 
+   padding-left: .5rem; 
+
+ }
+ .navbar-collapse,
+ .navbar-form {
+  border-top: 0;
+  padding-bottom: 0;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
 }
+}
+
 
 @media (max-width: 576px) {
   .navbar-expand-md{
