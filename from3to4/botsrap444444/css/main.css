@@ -2270,6 +2270,10 @@ ul.pagination > li:hover > a {
   color: #fff;
 }
 
+ul.pagination:first-child, ul.pagination:last-child{
+	white-space: nowrap;
+}
+
 .search_box {
   background-image: url("../images/search_icon.png");
   background-position: 314px 15px;

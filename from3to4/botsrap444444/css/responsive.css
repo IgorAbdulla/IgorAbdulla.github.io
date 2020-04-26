@@ -351,6 +351,12 @@ ul.social_icons li{
   .top-number{
     display: none;
   }
+   ul.pagination li:first-child{
+ display: none;
+    }
+     ul.pagination li:last-child{
+ display: none;
+}
 
 }
 
