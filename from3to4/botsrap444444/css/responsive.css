@@ -323,7 +323,11 @@ ul.social_icons li{
 }
 
 }
-
+@media (max-width: 767.98px) {
+.navbar-expand-md>.container, .navbar-expand-md>.container-fluid {
+     padding-right: .5rem; 
+     padding-left: .5rem; 
+}
 
 @media (max-width: 576px) {
   .navbar-expand-md{
@@ -333,6 +337,9 @@ ul.social_icons li{
     text-align: right;
   }
   .team-bar{
+    display: none;
+  }
+  .top-number{
     display: none;
   }
 
