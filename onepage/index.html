@@ -8,237 +8,355 @@
   <meta name="viewport" content="width=device-width" />
   <link rel="icon" href="img/favicon.png" />
   <meta property="og:image" content="img/@1x/preview.jpg" />
-  <link href="css/libs.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/sal.css">
+
   <link href="css/main.css" rel="stylesheet" />
 </head>
 
 <body>
 
-<div id="fullpage">
-  <section class="about">
-    <div class="container about__flex">
-      <div class="section-title">Что может бот и зачем он нужен?</div>
-      <div class="row">
-        <div class="col-md-4 col-sm-12">
-          <div class="about__item">
-            <div class="about__icon"><img src="img/communication.png" alt="about icon"></div>
-            <div class="about__text">может общаться с вашими клиентами вместо вас.</div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-12">
-          <div class="about__item">
-            <div class="about__icon"><img src="img/stat.png" alt="about icon"></div>
-            <div class="about__text">сможет собирать для вас статистику и анализировать ее.</div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-12">
-          <div class="about__item">
-            <div class="about__icon"><img src="img/card.png" alt="about icon"></div>
-            <div class="about__text">сможет принимать оплату за товары или услуги в автоматическом режиме 24.7</div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-12">
-          <div class="about__item">
-            <div class="about__icon"><img src="img/diagram.png" alt="about icon"></div>
-            <div class="about__text">может данные ваших клиентов и анализировать их.</div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-12">
-          <div class="about__item">
-            <div class="about__icon"><img src="img/planet.png" alt="about icon"></div>
-            <div class="about__text">сможет взаимодействовть с другими сайтами и социальными сетями.</div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-12">
-          <div class="about__item">
-            <div class="about__icon"><img src="img/time.png" alt="about icon"></div>
-            <div class="about__text">владеет всем набором инструментов, что бы оставить вам место для творчества</div>
-          </div>
-        </div>
-        <div class="section-down-icon"><img src="img/down.png" alt="down"></div>
-      </div>
-    </div>
-  </section>
+    <header class="header">
 
-  <section class="tariffs">
-    <div class="container-fluid">
-      <div class="section-title tariffs__title">Тарифы</div>
-      <div class="row">
-        <div class="col-lg-4 col-md-12">
-          <div class="tariffs__item tariffs__item--blue">
-            <div class="tariffs__top">
-              <p class="tariffs__type">Бесплатный</p>
-              <p class="tariffs__price">Бесплатно</p>
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-md navbar-light" role="banner" data-sal="slide-down" data-sal-duration="900" data-sal-easing="ease-out-back">
+            <div class="navbar__inner">
+              <a class="navbar-brand" href="/"><img src="img/telegram.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+              </button>
             </div>
-            <div class="tariffs__bottom">
-              <ul>
-                <li>
-                  <p>*ОГРАНИЧЕННЫЙ набор функций</p>
-                </li>
-                <li>
-                  <p>ВСЕГО 1 бот</p>
-                </li>
-                <li>
-                  <p>ЕСТЬ реклама</p>
-                </li>
-              </ul>
-              <a href="#" class="tariffs__btn">Выбрать</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-12">
-          <div class="tariffs__item tariffs__item--green">
-            <div class="tariffs__top">
-              <p class="tariffs__type">Бесплатный</p>
-              <p class="tariffs__price">Бесплатно</p>
-            </div>
-            <div class="tariffs__bottom">
-              <ul>
-                <li>
-                  <p>*ОГРАНИЧЕННЫЙ набор функций</p>
-                </li>
-                <li>
-                  <p>ВСЕГО 1 бот</p>
-                </li>
-                <li>
-                  <p>ЕСТЬ реклама</p>
-                </li>
-              </ul>
-              <a href="#" class="tariffs__btn">Выбрать</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-12">
-          <div class="tariffs__item tariffs__item--red">
-            <div class="tariffs__top">
-              <p class="tariffs__type">Бесплатный</p>
-              <p class="tariffs__price">Бесплатно</p>
-            </div>
-            <div class="tariffs__bottom">
-              <ul>
-                <li><p>*ОГРАНИЧЕННЫЙ набор функций</p></li>
-                <li><p>ВСЕГО 1 бот</p></li>
-                <li><p>ЕСТЬ реклама</p></li>
-              </ul>
-              <a href="#" class="tariffs__btn">Выбрать</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+            <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
+              <ul class="navbar-nav  navbar-padding">
+                <li><a class="navbar-link" href="/">Главная</a></li>
+
+                <li class="dropdown"> 
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Боты</a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/bots/all">Все категории</a></li>
+                    <li><a href="/bots/0">Игры</a></li><li><a href="/bots/1">Развлечения</a></li><li><a href="/bots/2">Социальные</a></li><li><a href="/bots/3">Фото и Видео</a></li><li><a href="/bots/4">Новости</a></li><li><a href="/bots/5">Инструменты</a></li><li><a href="/bots/6">Образование</a></li><li><a href="/bots/7">Для взрослых</a></li><li><a href="/bots/8">Бизнес</a></li><li><a href="/bots/9">Спорт</a></li><li><a href="/bots/10">Еда</a></li><li><a href="/bots/11">Технологии</a></li><li><a href="/bots/12">Юмор</a></li><li><a href="/bots/13">Авто</a></li><li><a href="/bots/14">Интернет</a></li><li><a href="/bots/15">Блоги</a></li><li><a href="/bots/16">Политика</a></li><li><a href="/bots/17">Музыка</a></li><li><a href="/bots/18">Финансы</a></li><li><a href="/bots/19">Книги</a></li><li><a href="/bots/20">Продажи</a></li><li><a href="/bots/21">Другое</a></li>                        </ul>
+                  </li>
+                  <li class="dropdown"> 
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Каналы</a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="/channels/all">Все категории</a></li>
+                      <li><a href="/channels/0">Игры</a></li>
+                      <li><a href="/channels/1">Развлечения</a></li>
+                      <li><a href="/channels/2">Социальные</a></li>
+                      <li><a href="/channels/3">Фото и Видео</a></li>
+                      <li><a href="/channels/4">Новости</a></li>
+                      <li><a href="/channels/5">Инструменты</a></li>
+                      <li><a href="/channels/6">Образование</a></li>
+                      <li><a href="/channels/7">Для взрослых</a></li>
+                      <li><a href="/channels/8">Бизнес</a></li>
+                      <li><a href="/channels/9">Спорт</a></li>
+                      <li><a href="/channels/10">Еда</a></li>
+                      <li><a href="/channels/11">Технологии</a></li>
+                      <li><a href="/channels/12">Юмор</a></li>
+                      <li><a href="/channels/13">Авто</a></li>
+                      <li><a href="/channels/14">Интернет</a></li>
+                      <li><a href="/channels/15">Блоги</a></li>
+                      <li><a href="/channels/16">Политика</a></li>
+                      <li><a href="/channels/17">Музыка</a></li>
+                      <li><a href="/channels/18">Финансы</a></li>
+                      <li><a href="/channels/19">Книги</a></li>
+                      <li><a href="/channels/20">Продажи</a></li>
+                      <li><a href="/channels/21">Другое</a></li>                     
+                    </ul>
+                  </li>
+                  <li><a href="/bot_sell.php">Магазин ботов <span class=" badge badge-success">new</span></a></li>
+                  <li><a href="https://telegram-ads.biz">Партнёрская сеть</a></li>
+
+                  <li class="dropdown"> 
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ещё</a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="https://telegrambot.biz/constructor/">Конструктор <span class=" badge badge-success">new</span>
+                      </a></li><li><a href="https://telegrambot.biz/articles">Статьи</a></li>
+                      <li><a href="https://telegrambot.biz/ads">Объявления</a></li>
+                      <li class="login-835"><a onclick="authorization.start_auth();">Войти</a></li>
+                    </ul>
+                  </li>
+                </ul>                  
+                <div class="login"><a onclick="authorization.start_auth();">Войти <span class="glyphicon glyphicon-log-in"></span></a></div>
 
 
-
-  <section class="faq">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-6 col-md-12">
-          <div class="section-title faq__title">База знаний</div>
-          <div class="faq__img">
-            <img src="img/man.png" alt="faq">
+              </div>
+              <!-- </div> -->
+            </nav>
+          </div>
+          <div class="row">
+            <div class="col-lg-5 col-md-12" data-sal="slide-right" data-sal-duration="900" data-sal-easing="ease-out-back">
+              <div class="header__content">
+                <h1 class="header__title section-title">
+                  Конструктор <br> ботов в Telegram
+                </h1>
+                <p class="header__text">
+                  Создай себе незаменимого и неутомимого помощника. Освободи себя от рутиной работы в сети
+                </p>
+                <a href="#" class="header__btn btn">Создать бота</a>
+              </div>  
+            </div>
+            <div class="col-lg-7 col-md-0" data-sal="slide-left" data-sal-duration="900" data-sal-easing="ease-out-back">
+              <div class="header__img">
+                <img src="img/header_img.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="header-down-icon" data-sal="slide-up" data-sal-duration="2000" data-sal-easing="ease-out-back"><img src="img/down.png" alt="down"></div>
+        </div>
+      </header>
+      <section class="about">
+        <div class="container">
+          <div class="about__inner">
+            <div class="section-title" data-sal="slide-up" data-sal-duration="900" data-sal-easing="ease-out-back">Что может бот и зачем он нужен?</div>
+            <div class="row">
+              <div class="col-md-4 col-sm-12" data-sal="slide-right" data-sal-duration="900" data-sal-easing="ease-out-back">
+                <div class="about__item">
+                  <div class="about__icon"><img src="img/communication.png" alt="about icon"></div>
+                  <div class="about__text">может общаться с вашими клиентами вместо вас.</div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12" data-sal="zoom-in" data-sal-duration="900" data-sal-easing="ease-out-back">
+                <div class="about__item">
+                  <div class="about__icon"><img src="img/stat.png" alt="about icon"></div>
+                  <div class="about__text">сможет собирать для вас статистику и анализировать ее.</div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12" data-sal="slide-left" data-sal-duration="900" data-sal-easing="ease-out-back">
+                <div class="about__item">
+                  <div class="about__icon"><img src="img/card.png" alt="about icon"></div>
+                  <div class="about__text">сможет принимать оплату за товары или услуги в автоматическом режиме 24.7</div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt">
+              <div class="col-md-4 col-sm-12" data-sal="slide-right" data-sal-duration="900" data-sal-easing="ease-out-back">
+                <div class="about__item">
+                  <div class="about__icon"><img src="img/diagram.png" alt="about icon"></div>
+                  <div class="about__text">может данные ваших клиентов и анализировать их.</div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12" data-sal="zoom-in" data-sal-duration="900" data-sal-easing="ease-out-back">
+                <div class="about__item">
+                  <div class="about__icon"><img src="img/planet.png" alt="about icon"></div>
+                  <div class="about__text">сможет взаимодействовть с другими сайтами и социальными сетями.</div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12" data-sal="slide-left" data-sal-duration="900" data-sal-easing="ease-out-back">
+                <div class="about__item">
+                  <div class="about__icon"><img src="img/time.png" alt="about icon"></div>
+                  <div class="about__text">владеет всем набором инструментов, что бы оставить вам место для творчества</div>
+                </div>
+              </div>
+            </div>
+            <div class="section-down-icon" data-sal="slide-up" data-sal-duration="2000" data-sal-easing="ease-out-back"><img src="img/down.png" alt="down"></div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-12">
-          <div class="questions">
-            <div class="questions__item">
-              <div class="question__item-q">
-                <a href="#" class="show-answer">
-                  <img src="img/plus.png" class="show-answer__icon" alt="show">С чего мне нужно начать?</a>
+      </section>
+
+      <section class="tariffs">
+        <div class="container">
+          <div class="section-title tariffs__title">Тарифы</div>
+          <div class="row">
+            <div class="col-lg-4 col-md-12" data-sal="slide-left" data-sal-duration="900" data-sal-easing="ease-out-back">
+              <div class="tariffs__item tariffs__item--blue">
+                <div class="tariffs__top">
+                  <p class="tariffs__type">Бесплатный</p>
+                  <p class="tariffs__price">Бесплатно</p>
                 </div>
-                <p class="questions__item-content">
-                 Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
-               </p>
-             </div>
-             <div class="questions__item">
-              <div class="question__item-q">
-                <a href="#" class="show-answer">
-                  <img src="img/plus.png" class="show-answer__icon" alt="show">Как установить логотип/аватар для вашего бота?</a>
+                <div class="tariffs__bottom">
+                  <ul>
+                    <li>
+                      <p>*ОГРАНИЧЕННЫЙ набор функций</p>
+                    </li>
+                    <li>
+                      <p>ВСЕГО 1 бот</p>
+                    </li>
+                    <li>
+                      <p>ЕСТЬ реклама</p>
+                    </li>
+                  </ul>
+                  <a href="#" class="tariffs__btn">Выбрать</a>
                 </div>
-                <p class="questions__item-content">
-                 Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
-               </p>
-             </div>
-             <div class="questions__item">
-              <div class="question__item-q">
-                <a href="#" class="show-answer">
-                  <img src="img/plus.png" class="show-answer__icon" alt="show">Что делать с токеном</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12" data-sal="zoom-in" data-sal-duration="900" data-sal-easing="ease-out-back">
+              <div class="tariffs__item tariffs__item--green">
+                <div class="tariffs__top">
+                  <p class="tariffs__type">Базовый</p>
+                  <p class="tariffs__price">88888руб</p>
                 </div>
-                <p class="questions__item-content">
-                 Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
-               </p>
-             </div>
-             <div class="questions__item">
-              <div class="question__item-q">
-                <a href="#" class="show-answer">
-                  <img src="img/plus.png" class="show-answer__icon" alt="show">Как наполнить бот информацией</a>
+                <div class="tariffs__bottom">
+                  <ul>
+                    <li>
+                      <p>*ВЕСЬ набор функций</p>
+                    </li>
+                    <li>
+                      <p>ДО 10 ботов</p>
+                    </li>
+                    <li>
+                      <p>НЕТ рекламы</p>
+                    </li>
+                  </ul>
+                  <a href="#" class="tariffs__btn">Выбрать</a>
                 </div>
-                <p class="questions__item-content">
-                 Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
-               </p>
-             </div>
-             <div class="questions__item">
-              <div class="question__item-q">
-                <a href="#" class="show-answer">
-                  <img src="img/plus.png" class="show-answer__icon" alt="show">Функций бота, созданного в вашем конструкторе?</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12" data-sal="slide-left" data-sal-duration="900" data-sal-easing="ease-out-back">
+              <div class="tariffs__item tariffs__item--red">
+                <div class="tariffs__top">
+                  <p class="tariffs__type">Бизнес</p>
+                  <p class="tariffs__price">999999руб</p>
                 </div>
-                <p class="questions__item-content">
-                 Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
-               </p>
-             </div>
-             <div class="questions__item">
-              <div class="question__item-q">
-                <a href="#" class="show-answer">
-                  <img src="img/plus.png" class="show-answer__icon" alt="show">Как мне загрузить нужный файлы в бот?</a>
+                <div class="tariffs__bottom">
+                  <ul>
+                    <li><p>*ВЕСЬ набор функций</p></li>
+                    <li><p>НЕОГРАНИЧЕННОЕ количество ботов</p></li>
+                    <li><p>ЕСТЬ реклама</p></li>
+                  </ul>
+                  <a href="#" class="tariffs__btn">Выбрать</a>
                 </div>
-                <p class="questions__item-content">
-                 Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
-               </p>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </section>
+
+      <section class="faq">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12" data-sal="slide-right" data-sal-duration="900" data-sal-easing="ease-out-back">
+              <div class="section-title faq__title">База знаний</div>
+              <div class="faq__img">
+                <img src="img/man.png" alt="faq">
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12" data-sal="slide-left" data-sal-duration="900" data-sal-easing="ease-out-back">
+              <div class="questions">
+                <div class="questions__item">
+                  <div class="question__item-q">
+                    <a href="#" class="show-answer">
+                      <img src="img/plus.png" class="show-answer__icon" alt="show">С чего мне нужно начать?</a>
+                    </div>
+                    <p class="questions__item-content" data-sal="slide-left" data-sal-duration="900" data-sal-easing="ease-out-back">
+                     Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
+                   </p>
+                 </div>
+                 <div class="questions__item">
+                  <div class="question__item-q">
+                    <a href="#" class="show-answer">
+                      <img src="img/plus.png" class="show-answer__icon" alt="show">Как установить логотип/аватар для вашего бота?</a>
+                    </div>
+                    <p class="questions__item-content" data-sal="slide-left" data-sal-duration="900" data-sal-easing="ease-out-back">
+                     Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
+                   </p>
+                 </div>
+                 <div class="questions__item">
+                  <div class="question__item-q">
+                    <a href="#" class="show-answer">
+                      <img src="img/plus.png" class="show-answer__icon" alt="show">Что делать с токеном</a>
+                    </div>
+                    <p class="questions__item-content" data-sal="slide-left" data-sal-duration="900" data-sal-easing="ease-out-back">
+                     Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
+                   </p>
+                 </div>
+                 <div class="questions__item">
+                  <div class="question__item-q">
+                    <a href="#" class="show-answer">
+                      <img src="img/plus.png" class="show-answer__icon" alt="show">Как наполнить бот информацией</a>
+                    </div>
+                    <p class="questions__item-content" data-sal="slide-left" data-sal-duration="900" data-sal-easing="ease-out-back">
+                     Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
+                   </p>
+                 </div>
+                 <div class="questions__item">
+                  <div class="question__item-q">
+                    <a href="#" class="show-answer">
+                      <img src="img/plus.png" class="show-answer__icon" alt="show">Функций бота, созданного в вашем конструкторе?</a>
+                    </div>
+                    <p class="questions__item-content" data-sal="slide-left" data-sal-duration="900" data-sal-easing="ease-out-back">
+                     Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
+                   </p>
+                 </div>
+                 <div class="questions__item">
+                  <div class="question__item-q">
+                    <a href="#" class="show-answer">
+                      <img src="img/plus.png" class="show-answer__icon" alt="show">Как мне загрузить нужный файлы в бот?</a>
+                    </div>
+                    <p class="questions__item-content" data-sal="slide-left" data-sal-duration="900" data-sal-easing="ease-out-back">
+                     Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
+                   </p>
+                 </div>
+                 <div class="questions__item">
+                  <div class="question__item-q">
+                    <a href="#" class="show-answer">
+                      <img src="img/plus.png" class="show-answer__icon" alt="show">Как ме создаь меню бота?</a>
+                    </div>
+                    <p class="questions__item-content" data-sal="slide-left" data-sal-duration="900" data-sal-easing="ease-out-back">
+                     Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
+                   </p>
+                 </div>
+                 <div class="questions__item">
+                  <div class="question__item-q">
+                    <a href="#" class="show-answer">
+                      <img src="img/plus.png" class="show-answer__icon" alt="show">Как мне привязать к боту форму обратной связи?</a>
+                    </div>
+                    <p class="questions__item-content" data-sal="slide-left" data-sal-duration="900" data-sal-easing="ease-out-back">
+                     Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
+                   </p>
+                 </div>
+                 <div class="questions__item">
+                  <div class="question__item-q">
+                    <a href="#" class="show-answer">
+                      <img src="img/plus.png" class="show-answer__icon" alt="show">Как мне создать команды для моего бота?</a>
+                    </div>
+                    <p class="questions__item-content" data-sal="slide-left" data-sal-duration="900" data-sal-easing="ease-out-back">
+                     Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
+                   </p>
+                 </div>
+                 <a href="#" class="questions__button btn">Перейти в базу знаний</a>
+               </div>
              </div>
-             <div class="questions__item">
-              <div class="question__item-q">
-                <a href="#" class="show-answer">
-                  <img src="img/plus.png" class="show-answer__icon" alt="show">Как ме создаь меню бота?</a>
-                </div>
-                <p class="questions__item-content">
-                 Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
-               </p>
-             </div>
-             <div class="questions__item">
-              <div class="question__item-q">
-                <a href="#" class="show-answer">
-                  <img src="img/plus.png" class="show-answer__icon" alt="show">Как мне привязать к боту форму обратной связи?</a>
-                </div>
-                <p class="questions__item-content">
-                 Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
-               </p>
-             </div>
-             <div class="questions__item">
-              <div class="question__item-q">
-                <a href="#" class="show-answer">
-                  <img src="img/plus.png" class="show-answer__icon" alt="show">Как мне создать команды для моего бота?</a>
-                </div>
-                <p class="questions__item-content">
-                 Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, saepe.    consectetur adipisicing elit. Consequatur, totam.
-               </p>
-             </div>
-             <a href="#" class="questions__button">Перейти в базу знаний</a>
            </div>
          </div>
+
+       </section> 
+       <footer class="footer">
+        <div class="container">
+         <div class="row">
+          <div class="col-lg-5  col-md-12 d-flex align-items-center">
+           <div class="logo footer__logo"><img src="img/telegram.png" alt="logo"></div>
+           <a href="#" class="privacy-policy">Политика конфиденциальности</a>
+         </div>
+         <div class="col-lg-4  col-md-12 d-flex align-items-center">
+           <a href="#" class="terms">Пользовательское соглашение</a>
+         </div>
+         <div class="col-lg-3  col-md-12 d-flex align-items-center">
+           <a href="#"  class="manager">Менеджер Lisa</a>
+         </div>
        </div>
-     </div>
+       <div class="row  col-md-12 d-flex align-items-center justify-content-between">
+         <p class="rights">© 2016 - 2019 telegrambot.biz, All rights reserved</p>
+         <div class="api">
+          <a href="#">Сообщить об ошибке</a> 
+          <a href="#">Bot api</a> 
+          <a href="#">Download Telegram</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-   </section>
-</div>
-   <script src="js/jquery.js"></script>
-   <script src="js/jquery.fullpage.min.js"></script>
-   <script src="js/common.js"></script>
-   <script>
-     $('#fullpage').fullpage();
-   </script>
 
- </body>
 
- </html>
+<script src="js/jquery.min.js"></script>
+<script src="js/sal.js"></script>
+<script>
+  sal();
+</script>
+<!-- <script src="js/jquery.fullpage.min.js"></script> -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+
+</html>
