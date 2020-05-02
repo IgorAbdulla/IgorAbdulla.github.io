@@ -520,7 +520,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: 150px;
   padding-bottom: 31px;
 }
 
@@ -538,10 +538,6 @@ footer a, footer p {
   color: #0B2F4F;
   font-family: 'Montserrat-Regular';
   font-size: 20px;
-}
-
-.rights, .api {
-  margin-top: 40px;
 }
 
 .api {
