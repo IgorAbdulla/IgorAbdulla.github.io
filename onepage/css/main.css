@@ -1,37 +1,6 @@
 @import url(../libs/bootstrap.min.css);
 @import url(../sass/normalize.css);
 @font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?yj6klb");
-  src: url("../fonts/icomoon.eot?yj6klb#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?yj6klb") format("truetype"), url("../fonts/icomoon.woff?yj6klb") format("woff"), url("../fonts/icomoon.svg?yj6klb#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-@font-face {
-  font-family: 'Montserrat-ExtraLight';
-  src: url("../fonts/Montserrat-ExtraLight.eot");
-  src: url("../fonts/Montserrat-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-ExtraLight.woff2") format("woff2"), url("../fonts/Montserrat-ExtraLight.woff") format("woff"), url("../fonts/Montserrat-ExtraLight.ttf") format("truetype"), url("../fonts/Montserrat-ExtraLight.svg#Montserrat-ExtraLight") format("svg");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'Montserrat-Light';
   src: url("../fonts/Montserrat-Light.eot");
   src: url("../fonts/Montserrat-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat-Light.ttf") format("truetype"), url("../fonts/Montserrat-Light.svg#Montserrat-Light") format("svg");
@@ -235,6 +204,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 
 .login {
   margin-right: 50px;
+  cursor: pointer;
 }
 
 .navbar__inner {
@@ -551,7 +521,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 
 footer {
   margin-top: 50px;
-  padding-bottom: 74px;
+  padding-bottom: 31px;
 }
 
 footer .container {
@@ -560,6 +530,7 @@ footer .container {
 
 .footer__logo {
   margin-right: 10px;
+  width: 47px;
 }
 
 footer a, footer p {
@@ -586,7 +557,7 @@ footer a, footer p {
 
 .api a {
   position: relative;
-  margin: 10px;
+  margin: 28px;
 }
 
 @media only screen and (max-width: 1600px) {

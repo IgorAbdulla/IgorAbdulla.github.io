@@ -1,62 +1,11 @@
 // style_lib
 @import "../libs/bootstrap.min.css";
 @import "../sass/normalize.css";
-// vars
-$default-font: "roboto-example",
-sans-serif;
-$accent: #CE0393;
-$light: #8E8E8E;
-$lato: 'Lato',
-sans-serif;
 
 
 
 
 
-
-
-
-// fonts
-@font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?yj6klb');
-  src:  url('../fonts/icomoon.eot?yj6klb#iefix') format('embedded-opentype'),
-  url('../fonts/icomoon.ttf?yj6klb') format('truetype'),
-  url('../fonts/icomoon.woff?yj6klb') format('woff'),
-  url('../fonts/icomoon.svg?yj6klb#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-
-
-@font-face {
-  font-family: 'Montserrat-ExtraLight';
-  src: url('../fonts/Montserrat-ExtraLight.eot');
-  src: url('../fonts/Montserrat-ExtraLight.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/Montserrat-ExtraLight.woff2') format('woff2'),
-  url('../fonts/Montserrat-ExtraLight.woff') format('woff'),
-  url('../fonts/Montserrat-ExtraLight.ttf') format('truetype'),
-  url('../fonts/Montserrat-ExtraLight.svg#Montserrat-ExtraLight') format('svg');
-  font-weight: 200;
-  font-style: normal;
-}
 
 @font-face {
   font-family: 'Montserrat-Light';
@@ -132,14 +81,6 @@ sans-serif;
 
 
 
-
-
-
-
-// mixins
-@mixin me {
-  font-family: 'Montserrat-ExtraLight';
-}
 
 @mixin ml {
   font-family: 'Montserrat-Light';
@@ -304,6 +245,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 }
 .login{
   margin-right: 50px;
+  cursor: pointer;
 }
 .navbar__inner{
   display: flex;
@@ -549,15 +491,16 @@ padding: 5px 0;
  margin: 16px 0 0 81px
 }
 
-footer{
-  margin-top: 50px;
-  padding-bottom: 74px;
+footer {
+    margin-top: 50px;
+    padding-bottom: 31px;
 }
 footer .container {
   max-width: 1406px;
 }
 .footer__logo{
   margin-right: 10px;
+  width: 47px;
 }
 footer a, footer p {
   margin: 0;
@@ -575,7 +518,7 @@ footer a, footer p {
   justify-content: space-between;
 a{
   position: relative;
-  margin: 10px;
+  margin: 28px;
 
 }
 }
