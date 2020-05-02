@@ -59,7 +59,9 @@ body {
 }
 
 body {
-  width: 100%;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   height: 100%;
   position: relative;
   overflow-x: hidden;
