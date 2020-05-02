@@ -137,11 +137,11 @@ ul {
 }
 .navbar-logo {
     width: 47px;
-    background: url(/moduls/lg.png);
+    background: url("../moduls/lg.png");
     background-size: cover;
 }
 .navbar-logo:hover{
-    background: url(/moduls/lg_over.png);
+    background: url("../moduls/lg_over.png");
 }
 #footer {
     position: absolute;
