@@ -110,6 +110,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 }
 
 .container {
+  max-width: 1900px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -157,10 +158,6 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 
 .header, .about {
   padding: 0 50px;
-}
-
-.header .container, .about .container {
-  max-width: 1900px;
 }
 
 .header__btn {
@@ -241,10 +238,6 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   margin-top: 122px;
 }
 
-.about .container {
-  max-width: 1900px;
-}
-
 .login-835 {
   display: none;
 }
@@ -296,10 +289,6 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 
 .tariffs {
   margin: 122px auto 0 auto;
-}
-
-.tariffs .container {
-  max-width: 1900px;
 }
 
 .tariffs__item {
@@ -429,10 +418,6 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   margin-top: 170px;
 }
 
-.faq .container {
-  max-width: 1900px;
-}
-
 .faq__title {
   margin-top: 41px;
 }
@@ -522,10 +507,6 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 footer {
   margin-top: 150px;
   padding-bottom: 31px;
-}
-
-footer .container {
-  max-width: 1900px;
 }
 
 .footer__logo {
@@ -629,6 +610,7 @@ footer a, footer p {
   }
   .header-down-icon {
     margin-bottom: 70px;
+    margin-top: 70px;
   }
 }
 

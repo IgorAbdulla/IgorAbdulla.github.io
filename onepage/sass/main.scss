@@ -163,7 +163,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 
 
 .container {
-  // max-width: 1597px;
+  max-width: 1900px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -209,9 +209,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 
 .header, .about{
   padding: 0 50px;
-  .container{
-    max-width: 1900px;
-  }
+ 
 }
 .header__btn{
   border-radius: 100px;
@@ -268,10 +266,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 }
 .about {
   margin-top: 122px;
-  .container{
-    max-width: 1900px;
-  }
-}
+ }
 .login-835{
   display: none;
 }
@@ -314,9 +309,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 .tariffs{
   // max-width: 1620px;
   margin: 122px auto 0 auto;
-  .container{
-    max-width: 1900px;
-  }
+
 }
 .tariffs__title{
   // margin-bottom: 65px;
@@ -421,9 +414,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 // faq
 .faq{
   margin-top: 170px;
-  .container{
-    max-width: 1900px;
-  }
+
 }
 .faq__title{
   margin-top: 41px;
@@ -495,9 +486,7 @@ footer {
     margin-top: 150px;
     padding-bottom: 31px;
 }
-footer .container {
-  max-width: 1900px;
-}
+
 .footer__logo{
   margin-right: 10px;
   width: 47px;
