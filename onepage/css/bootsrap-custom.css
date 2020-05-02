@@ -1,0 +1,210 @@
+body {
+    padding-top: 50px;
+    background: #fff;
+    height: 100%;
+}
+A:link {
+    text-decoration: none;
+    /* Убирает подчеркивание для ссылок */
+    cursor: pointer;
+}
+A:visited {
+    text-decoration: none;
+}
+A:active {
+    text-decoration: none;
+}
+A:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+.form-control {
+    border-radius: 0px;
+}
+.panel {
+    border-radius: 0px;
+    border: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Параметры тени */
+}
+
+
+.about-text>p>b>a{
+    color: #333;
+    font-weight: normal;    text-decoration:underline;
+
+}
+ 
+
+
+.panel-footer {
+    border-top: 2px solid #00A2E4;
+    font-size: 13px;
+    background-color: #fff;
+}
+.panel-default>.panel-heading {
+    border-color: #00A2E4;
+}
+.panel-heading {
+    border-bottom: 2px solid #00A2E4;
+}
+.panel-default>.panel-heading {
+    background-color: #fff;
+}
+.menu {
+    border-bottom: 2px solid #00A2E4;
+    background: #f4f4f4;
+}
+.bot-avatar {
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.5);
+    /* Параметры тени */
+}
+@font-face {
+    font-family: UltraBlack;
+    src: url(../fonts/PFAgoraSansPro-UltraBlack.ttf);
+}
+.button-1 {
+    width: 122px;
+    height: 36px;
+    background: url(../images/style/button1.png) no-repeat;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    line-height: 36px;
+    text-align: center;
+    float: left;
+}
+.button-1:hover {
+    color: #fff;
+    background: url(../images/style/button1over.png) no-repeat;
+}
+.button-3 {
+    width: 122px;
+    height: 36px;
+    color: #000;
+    display: block;
+    font-size: 12px;
+    line-height: 36px;
+    text-align: center;
+    float: left;
+}
+.button-3.active {
+    color: #fff;
+    background: url(../images/style/button1.png) no-repeat;
+}
+.button-3:hover {
+    color: #fff;
+    background: url(../images/style/button1over.png) no-repeat;
+}
+.button-2 {
+    width: 200px;
+    height: 36px;
+    background: url(../images/style/button2.png) no-repeat;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    line-height: 36px;
+    text-align: center;
+    float: left;
+}
+.button-2:hover {
+    color: #fff;
+    background: url(../images/style/button2over.png) no-repeat;
+}
+.star ul {
+    margin-left: 8px;
+}
+.star ul {
+    margin-top: 16px;
+    margin-left: 22px;
+}
+ol,
+ul {
+    list-style: none;
+}
+.center {
+    margin: 17px auto 0 auto;
+    display: block;
+}
+.btn-primary {
+    background-color: #00A3E4;
+    border-radius: 0px;
+    border:0px;
+}
+.btn-danger {
+    border:0px;
+    border-radius: 0px;
+}
+.navbar-logo {
+    width: 47px;
+    background: url(/moduls/lg.png);
+    background-size: cover;
+}
+.navbar-logo:hover{
+    background: url(/moduls/lg_over.png);
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+.productRate {
+    background: url(../images/style/empty-star.png);
+    width: 65px;
+    height: 12px;
+}
+.productRate div {
+    background: url(../images/style/full-star.png);
+    width: 0;
+    height: 100%;
+}
+.botitem {
+    cursor: pointer;
+}
+.productBigRate {
+    background: url(../images/style/empty-big-star.png);
+    width: 126px;
+    height: 23px;
+    position: relative;
+    float: right;
+    right: 50%;
+}
+.productBigRate div {
+    background: url(../images/style/full-big-star.png);
+    width: 0;
+    height: 100%;
+    position: relative;
+}
+.navbar-inverse {
+    background: url(../images/style/background.png);
+}
+.nav-justified {
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
+.nav-justified > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #777;
+    font-size: 11px;
+    text-align: center;
+}
+.logout-btn:hover{
+    text-shadow: 0px 0px 10px rgba(255, 0, 0, 1), 0px 0px 15px rgba(255, 0, 0, 1), 0px 0px 20px rgba(255, 0, 0, 1);
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+    background-color: #ddd;
+    background-image: none;
+    box-shadow: inset 0 3px 7px rgba(0, 0, 0, .15);
+}
