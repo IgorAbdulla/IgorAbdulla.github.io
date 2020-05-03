@@ -357,6 +357,7 @@ img {
   left: 0;
   right: -17px;
   /* Increase/Decrease this value for cross-browser compatibility */
+  bottom: -17px;
   overflow-y: scroll;
 }
 
