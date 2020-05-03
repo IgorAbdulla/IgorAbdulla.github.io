@@ -332,7 +332,6 @@ img {
 
 .faq {
   margin-top: 80px;
-  overflow: scroll;
 }
 
 .faq__title {
@@ -345,9 +344,20 @@ img {
 }
 
 .questions {
-  height: 495px;
-  overflow: auto;
+  height: 485px;
+  overflow: hidden;
+  position: relative;
   margin: -10px 0 -10px 0;
+}
+
+.questions__inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: -17px;
+  /* Increase/Decrease this value for cross-browser compatibility */
+  overflow-y: scroll;
 }
 
 .questions__item {
